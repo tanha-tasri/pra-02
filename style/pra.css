@@ -1,0 +1,70 @@
+
+.work-sans {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+nav{
+    max-width: 1600px;
+    height: 92px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-color: #1A0B2E;
+    box-sizing: border-box;
+}
+
+.headline{
+    max-width: 219px;
+    height: 32px;
+    font-size: 40px;
+    color:#FFFFFF;
+    margin-left: 200px;
+    margin-bottom: 30px;
+   
+}
+
+.headline span{
+    background: linear-gradient(90deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    align-items: center;
+   
+}
+
+nav .menu a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    align-items: center;
+    line-height: 120%;
+}
+
+
+.btn{
+    
+    max-width: 135px;
+    height: 44px;
+    /* padding: 16px 12px; */
+    margin-right: 200px;
+    gap: 4px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+   
+}
+
+
+.btn button{
+   color: #FFFFFF;
+   font-size: 16px;
+   padding: 12px 16px 40px;
+}
