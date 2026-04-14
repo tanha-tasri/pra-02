@@ -70,10 +70,20 @@ nav .menu a{
 }
 
 #banner{
-    background-image: url(../picture/assets/hero-bg.png);
+    background-image: 
+    url(../picture/assets/microphone.png),
+    url(../picture/assets/hero-circle.png),
+    url(../picture/assets/hero-bg.png);
+    
+    background-position:50% 175px, 50% 100px, center;
+    
+    background-size: 
+        150px,          
+        400px 400px,         
+        cover;          
+
     min-height: 100vh; 
-    background-size: cover;
-    background-position: center;
+    width: 100%;
     background-repeat: no-repeat;
 }
 
@@ -81,4 +91,35 @@ nav .menu a{
     text-align: center;
     align-items: center;
     color: #FFFFFF;
+    padding-top: 540px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#banner h2{
+    font-weight: bold;
+    font-size: 60px;
+    max-width: 550px;
+    margin-bottom: 8px;
+}
+
+#banner p{
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+#banner .btn2{
+    max-width: 200px;
+    height: 50px;
+    border-radius: 10000px;
+    /* padding: 20px 5px; */
+    background: linear-gradient(90deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+}
+
+.btn2 button{
+    color: #FFFFFF;
+    /* padding: 12.5px 48px 20px; */
+    font-size: 16px;
 }
